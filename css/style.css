@@ -1,0 +1,50 @@
+
+                .food-image{
+                    height: 380px;
+                    width: 280px;
+                    padding: 30px;
+                    margin-left: 400px;
+                }
+                .enter-text{
+                    font-size: 20px;
+                    color: #ff6600;
+                    padding: 15px;margin: 10px;
+                    text-align: center;
+                    color: #ff6600;
+                }
+                .login-button{
+                    height: 40px;
+                    width: 70px;
+                    font-size: 20px;
+                    background-color:#ff6600 ;
+                    color: bisque;
+                    border-radius: 10px;
+                    margin: auto;
+                   border-color: black;
+                   margin-left: 125px;
+                }
+                .heading{
+                    font-size: 50px;
+                    text-align: center;
+                    color:#ff6600;
+                }
+                .login{
+                font-size: 35px;
+                text-align: center;
+                color:#ff6600 ;
+                }  
+                .enter-info{
+                    text-align:center;
+                }   
+                .container{
+                flex-wrap: wrap;
+                background-color:bisque;
+                width: 330px;
+                padding: 20px;
+                margin-left: 700px;
+               margin-top: -415px;
+                }  
+                .container:hover{
+                    box-shadow: rgb(168, 166, 166);
+
+                }    
