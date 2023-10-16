@@ -48,3 +48,98 @@
                     box-shadow: rgb(168, 166, 166);
 
                 }    
+                .title{
+                    background-color: brown;
+                    color: bisque;
+                    text-align: center;
+                    font-size: 40px;
+                    padding: 5px;
+                }
+                .img{
+                        width: 100px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border-radius: 100%;
+                    }
+                    .container{
+                        height: 400px;
+                        width: 1500px;
+                        background-color: #fff;
+                        padding: 5px;
+                        border-radius: 5px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                    }
+                    .person{
+                        border: 3px solid black;
+                        display: inline-block;
+                        background-color: beige;
+                        width: 300px;
+                        height: 350px;
+                        padding: 10px;
+                        margin: 10px;
+                        border-radius: 10px; 
+                        box-shadow: 1px 1px 2px 2px #9595b7;
+                    }
+                    .ratings{
+                        width: 100px;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        text-align: center;
+                    }
+                    .text-center{
+                        text-align: center;
+                    }
+                    .note{
+                        text-align: center;
+                    }
+                    .title{
+                        background-color: brown;
+                        color: bisque;
+                        text-align: center;
+                        font-size: 40px;
+                        padding: 5px;
+                    }
+                    .img{
+                            width: 100px;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            border-radius: 100%;
+                        }
+                        .container{
+                            height: 400px;
+                            width: 1500px;
+                            background-color: #fff;
+                            padding: 5px;
+                            border-radius: 5px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                        }
+                        .person{
+                            border: 3px solid black;
+                            display: inline-block;
+                            width: 300px;
+                            height: 350px;
+                            padding: 10px;
+                            margin: 10px;
+                            border-radius: 10px; 
+                            box-shadow: 1px 1px 2px 2px #9595b7;
+                        }
+                        .ratings{
+                            width: 100px;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            text-align: center;
+                        }
+                        .text-center{
+                            text-align: center;
+                        }
+                        .note{
+                            text-align: center;
+                        }
