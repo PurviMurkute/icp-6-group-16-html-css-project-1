@@ -20,7 +20,7 @@
 
         .card-effect{
             position: relative;
-            height:400px;
+            height:440px;
             width: 350px;
             padding: 20px;
             background-color: #FFF;
@@ -68,6 +68,7 @@
             display: block;
             width: 120px;
             height: 40px;
+            margin-top: 3px;
         }
         .button-description:hover{
             cursor: pointer;
@@ -85,8 +86,21 @@
         }
         .price-items{
             font-size: 20px;
-            margin-left: 70px;
+            margin-left: 100px;
             margin-right: auto;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .price-rate{
+            display: inline-flex;
+            
+        }
+        .del-price{
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 5px;
+            
         }
        
     </style>
@@ -101,8 +115,11 @@
             <img src="https://curefoods-images.eatfit.in/tr:w-600,ar-0.8,c_fit//image/singles/eat/meals/ALH34/primary/1_1.jpg" class="card-img-strcture"/>
             <h3 class="card-title-name">Paneer-Tikka-Biryani</h3><br/>
             <p> combination of basmati rice and paneer tikka masala, topped with brown onions, mint leaves and fried cashewnuts</p>
-            <p class="price-items"> Rs.120</p>
+            <div>
+            <div class="price-rate"><p class="price-items"> Rs.120</p>
+            <del class="del-price">200</del></div>
             <button class="button-description">Buy now</button>
+         </div>
             
         </div>
     
@@ -112,9 +129,11 @@
                 <img src="/images/biryani/egg birayani.jpg" class="card-img-strcture"/>
                 <h3 class="card-title-name">Egg-Rost-Biryani</h3><br/>
                 <p>  This egg roast biriyani is one of those unique & delicious biryani varieties we got to enjoy in restaurants in India.</p>
-                <p> Rs.150</p>
+                <div>
+                    <div class="price-rate"><p class="price-items"> Rs.120</p>
+                    <del class="del-price">200</del></div>
                 <button class="button-description">Buy now</button>
-                
+                </div>
             </div>
             
         
