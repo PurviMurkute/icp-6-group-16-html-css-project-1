@@ -117,3 +117,21 @@ background-repeat: no-repeat;
 margin-bottom: 0;
 display: inline-flex;
 }
+.italian-img{
+    background-image: url("./../../icp-6-group-16-html-css-project-1/images/biryani/italian-spaghetti-food-menu-design-free-vector.jpg");
+height: 480px;
+width:100vw;
+background-size: cover ;
+background-repeat: no-repeat;
+margin-bottom: 0;
+display: inline-flex;
+}
+.bengoli-img{
+    background-image: url("./../../icp-6-group-16-html-css-project-1/images/biryani/bc:\Users\HP\Downloads\bangali.htma");
+height: 480px;
+width:100vw;
+background-size: cover ;
+background-repeat: no-repeat;
+margin-bottom: 0;
+display: inline-flex;
+}
