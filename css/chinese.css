@@ -108,3 +108,12 @@ margin-bottom: 0;
 display: inline-flex;
 
 }
+.chinese-img{
+    background-image: url("./../images/biryani/new.jpg");
+height: 480px;
+width:100vw;
+background-size: cover ;
+background-repeat: no-repeat;
+margin-bottom: 0;
+display: inline-flex;
+}
