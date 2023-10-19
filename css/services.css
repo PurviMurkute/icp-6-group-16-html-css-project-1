@@ -1,0 +1,96 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#fff3e6;
+}
+.heading{
+    font-size: 50px;
+    color: #3b2612;
+    padding: 10px;
+    text-align: center;
+    margin-top: 28px;
+}
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+.service-card{
+   width: 350px;
+   background-color:white;
+   border-radius: 10px;
+   padding: 15px;
+   position: relative;
+   box-shadow: 0px 0px 5px 3px gray;
+   margin-top:20px;
+}
+.services-card-icon{
+   color: orange;
+   font-size: 40px;
+   position: absolute;
+   width: 50px;
+   background-color: white;
+   border-radius: 5px;
+   padding: 10px;
+   border: 2px solid orange;
+   text-align: center;
+   top:-38px;
+   left: 140px;
+}
+.services-card-title{
+    color: orange;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 25px;
+}
+.services-card-description{
+    font-size: 20px;
+    text-align: justify;
+}
+.Terms-Conditions-heading{
+    font-size: 40px;
+    color: #3b2612;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.Terms-Conditions-description{
+    font-size: 25px;
+}
+.checkbox{
+    font-size: 22px;
+}
+.checkbox:hover{
+    cursor: pointer;
+}
+.home{
+    margin-top: 20px;
+   font-size: 25px;
+}
+.submit-button{
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.submit-button:hover{
+   cursor: pointer;
+  background-color: rgb(74, 72, 72);
+  color: white;
+}
+@media only screen and (max-width:675px){
+    .service-card{
+        margin-top: 60px;
+    }
+    .Terms-Conditions-heading{
+        font-size: 30px;
+
+    }
+}
+@media only screen and (max-width:1400px){
+    .service-card{
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
