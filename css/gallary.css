@@ -1,0 +1,81 @@
+.title {
+    color: tomato;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+body {
+    background-color: #fff5cc;
+}
+
+.card {
+    position: relative;
+    height:320px;
+    width: 330px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 10px 8px #999;
+}
+.card:hover{
+    transform: scale(0.99);
+}
+.main-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card-img {
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 5px auto;
+    filter: drop-shadow(0px 0px 2px #9595b7);
+    border-radius: 20px;
+}
+
+.card-title {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    margin-top: 5px;
+
+}
+.btn-description{
+    background-color:#009900;
+    color: #FFF;
+    position:absolute;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.btn-description:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 2px );
+    border-radius: 20px;
+    width: 80px;
+    transition: 0.5s;
+    
+}
+.card-des{
+    text-align: right;
+    color:tomato;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.header-title{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: tomato;
+}
