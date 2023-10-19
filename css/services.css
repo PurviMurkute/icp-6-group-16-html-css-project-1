@@ -36,7 +36,7 @@
    border: 2px solid orange;
    text-align: center;
    top:-38px;
-   left: 140px;
+   left: 148px;
 }
 .services-card-title{
     color: orange;
@@ -70,12 +70,15 @@
 }
 .submit-button{
     margin-top: 20px;
+    padding: 12px;
     font-size: 25px;
-    border-radius: 5px;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 35px;
 }
 .submit-button:hover{
    cursor: pointer;
-  background-color: rgb(74, 72, 72);
+  background-color:#3b2612;
   color: white;
 }
 @media only screen and (max-width:675px){
