@@ -1,0 +1,27 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.section-one{
+    height: 567px;
+    width: 575px;
+    border: 2px solid rgb(201, 191, 191);
+    box-shadow: 10px 7px 10px 7px  rgb(204, 204, 208);
+}
+.img img{
+  margin-left: 20px;
+ height: 347px;  
+ width: 456px;
+   
+}
+button{
+    height: 45px;
+    width: 203px;
+    background-color: rgb(100, 123, 176);
+    color: white;
+    margin-left: 15px;
+    border-radius: 8px;
+}
