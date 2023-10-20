@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 *{
     margin: 0px;
     padding: 0px;
 
 }
+=======
+>>>>>>> 422b8497baca21b9e4cdf6a549da0d511756bb42
 #form {
     display: flex;
     justify-content: center;
@@ -13,7 +16,10 @@
 .section-one{
     height: 567px;
     width: 575px;
+<<<<<<< HEAD
     margin-top: 40px;
+=======
+>>>>>>> 422b8497baca21b9e4cdf6a549da0d511756bb42
     border: 2px solid rgb(201, 191, 191);
     box-shadow: 10px 7px 10px 7px  rgb(204, 204, 208);
 }
@@ -26,7 +32,11 @@
 button{
     height: 45px;
     width: 203px;
+<<<<<<< HEAD
     background-color:orange;
+=======
+    background-color: rgb(100, 123, 176);
+>>>>>>> 422b8497baca21b9e4cdf6a549da0d511756bb42
     color: white;
     margin-left: 15px;
     border-radius: 8px;
