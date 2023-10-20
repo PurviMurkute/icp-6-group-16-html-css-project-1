@@ -42,7 +42,7 @@
     padding:20px;
     text-decoration: none;
     text-decoration: none;
-    margin-top:-600px;
+    margin-top:-500px;
     }
     .navbar-menu{
     padding:20px;
@@ -63,10 +63,10 @@
     cursor:pointer;
     }
     .background-image{
-    height:500px;
-    width:500px;
+    height:400px;
+    width:400px;
     margin-left:750px;
-    margin-top:20px;
+    margin-top:40px;
     box-shadow:0 0 20px #9595b7;
     }  
     .description{
