@@ -1,0 +1,180 @@
+body {
+    background-color: #fff5cc;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.card-effect{
+    position: relative;
+    height:440px;
+    width: 350px;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin: 20px;
+   
+    box-shadow: 0px 10px 8px #999;
+    
+}
+.card-effect:hover{
+    transform: scale(0.99);
+}
+.main-container{
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card-img-strcture{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 5px auto;
+    filter: drop-shadow(0px 0px 2px #9595b7);
+    border-radius: 20px;
+}
+
+.card-title-name{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: cursive;
+    margin-top: 5px;
+
+}
+.button-description{
+    background-color: orangered;
+    color: #FFF;
+    position: relative;;
+    font-size: 20px;
+    text-align: center;
+    text-decoration-color: orangered;
+    border-radius: 20px;
+    margin-left: 120px;
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-top: 3px;
+}
+.button-description:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 2px );
+    border-radius: 20px;
+    transition: 0.5s;
+    
+}
+.card-light{
+    text-align: right;
+    color:tomato;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.price-items{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: auto;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.price-rate{
+    display: inline-flex;
+    
+}
+.del-price{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+.navbar-img{
+ 
+align-items: center;
+flex-wrap: wrap;
+display: block;
+}
+.biryani-img{
+background-image: url("./../../images/biryani/biryani\ thali.jpg");
+height: 480px;
+width:100vw;
+background-size: cover ;
+background-repeat: no-repeat;
+margin-bottom: 0;
+display: inline-flex;
+
+}
+.chinese-img{
+    background-image: url("./../images/biryani/new.jpg");
+height: 480px;
+width:100vw;
+background-size: cover ;
+background-repeat: no-repeat;
+margin-bottom: 0;
+display: inline-flex;
+}
+.italian-img{
+background-image: url("./../images/biryani/italian-spaghetti-food-menu-design-free-vector.jpg");
+height: 480px;
+width:100vw;
+background-size: cover ;
+background-repeat: no-repeat;
+margin-bottom: 0;
+display: inline-flex;
+}
+.bengoli-img{
+    background-image: url("https://i.ytimg.com/vi/HU8y_fEx6nE/maxresdefault.jpg");
+height: 480px;
+width:100vw;
+background-size: cover ;
+background-repeat: no-repeat;
+margin-bottom: 0;
+display: inline-flex;
+}
+.footer{
+    background:#fff3e6;
+    padding:30px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:#3b2612;
+    font-size:20px;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:#000;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#3b2612;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    font-size:16px;
+    font-weight:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:28px;
+    margin:0% 1%;
+    font-weight:100%;
+    color:#cc7a00;
+    }
+    
