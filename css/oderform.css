@@ -16,7 +16,7 @@ body{
     text-align: center;
     color: #ff6600;
     width: 300px;
-    height: 25px;
+    height: 25px;border-radius: 10px;
 }
 .order-btn{
     height: 35px;
@@ -27,6 +27,7 @@ body{
     text-decoration: none;
     margin: 10px;
    border-color: black;
+   border-radius: 5px;
 }
 .heading{
     font-size: 50px;
@@ -64,33 +65,6 @@ overflow: hidden;
   
     text-decoration: double;
 }      
-@media screen and  (min-width:100px) and (max-width:500px){
-    .food-image{
-    height: 300px;
-    width: 350px;
-    padding: 30px;
-    margin-left: 50px;
-   
-  
-}
-
-    
-}
-
-
- 
-@media screen and  (min-width:100px) and (max-width:500px){
-.enter-text{
-    font-size: 20px;
-    /* color: #00ffc3dd; */
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    color: #ff6600;
-    width: 200px;
-    height: 100px;
-}
-}
 .footer{
     background:#fff3e6;
     padding:30px 0px;
@@ -132,5 +106,52 @@ overflow: hidden;
     margin:0% 1%;
     font-weight:100%;
     color:#cc7a00;
+    }
+    @media screen and  (min-width:400px) and (max-width:600px){
+    .food-image{
+            height: 300px;
+            width: 200px;
+            padding-top: 30px;
+            margin-left: 0px;
+            margin-bottom:25px;
+    }
+    .enter-text{
+            font-size: 10px;
+            width: 140px;
+            color: #ff6600;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            color: #ff6600;
+            margin-left: 230px;
+            border-radius: 10px;
+}
+  .container{
+            display: flex;
+            flex-wrap: wrap;
+            background-color:bisque;
+            height: 300px;
+            width: 420px;
+            padding: 20px;
+            margin-left: 0px;
+            margin-top: -380px;
+            margin-bottom: 40px;
+            border-radius: 5px;
+        }
+            .order-btn{
+            height: 30px;
+            width: 140px;
+            font-size: 20px;
+            background-color:#ff6600 ;
+            color: bisque;
+            text-decoration: none;
+            margin: 10px;
+            border-color: black;
+            margin-left: 240px;
+            border-radius: 40px;
+        }
+        .footer{
+            width: 100%;
+        }    
     }
     
