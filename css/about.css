@@ -34,7 +34,11 @@ body{
     line-height: 30px;
    margin-bottom: 40px;
 }
-@media screen and (max-width:1200px) {
+.home{
+    margin-top: 0px;
+   font-size: 25px;
+}
+@media screen and (max-width:600px) {
     .inner-container{
         padding: 80px;
     }   
@@ -47,9 +51,4 @@ body{
     .inner-container{
         width:100%;
     }
-  
-}
-.home{
-    margin-top: 0px;
-   font-size: 25px;
-}
+}    

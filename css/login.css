@@ -17,7 +17,7 @@
     font-size: 20px;
     background-color:#ff6600 ;
     color: bisque;
-    border-radius: 10px;
+    border-radius:50px ;
     margin: auto;
    border-color: black;
    margin-left: 125px;
@@ -28,7 +28,7 @@
     color:#ff6600;
 }
 .login{
-font-size: 35px;
+font-size: 40px;
 text-align: center;
 color:#ff6600 ;
 }  
@@ -36,6 +36,7 @@ color:#ff6600 ;
     text-align:center;
 }   
 .form-container{
+    display: flex;
 flex-wrap: wrap;
 background-color:bisque;
 width: 330px;
@@ -89,4 +90,52 @@ margin-top: -415px;
     font-weight:100%;
     color:#cc7a00;
     }
-    
+    .home-icon{
+        font-size: 25px;
+    }
+    @media only screen and (max-width:600px){
+        .food-image{
+            height: 300px;
+            width: 200px;
+            padding-top: 30px;
+            margin-left: 0px;
+            margin-bottom:25px;
+        }
+            .enter-text{
+            font-size: 10px;
+            width: 140px;
+            color: #ff6600;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            color: #ff6600;
+            margin-left: 230px;
+            border-radius: 10px;
+        }
+        .form-container{
+            display: flex;
+            flex-wrap: wrap;
+            background-color:bisque;
+            height: 300px;
+            width: 420px;
+            padding: 20px;
+            margin-left: 0px;
+            margin-top: -380px;
+            margin-bottom: 40px;
+            border-radius: 5px;
+            }
+        .login-button{
+            height: 40px;
+            width: 70px;
+            font-size: 20px;
+            background-color:#ff6600 ;
+            color: bisque;
+            border-radius: 50px;
+            margin: auto;
+            border-color: black;
+            margin-left: 290px;
+        }
+        .footer{
+            width: 100%;
+        }
+    }
