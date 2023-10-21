@@ -5,7 +5,7 @@
 }
 .heading{
     font-size: 50px;
-    color: #3b2612;
+    color:#ff6600;
     padding: 10px;
     text-align: center;
     margin-top: 28px;
@@ -23,7 +23,7 @@
    border-bottom-left-radius: 50px;
    padding: 15px;
    position: relative;
-   box-shadow: 0px 0px 5px 3px gray;
+   box-shadow: 0px 0px 5px 5px gray;
    margin-top:20px;
 }
 .services-card-icon{
@@ -51,7 +51,7 @@
 }
 .Terms-Conditions-heading{
     font-size: 40px;
-    color: #3b2612;
+    color:#ff6600;
     text-align: center;
     font-weight: bold;
     margin-top: 50px;
@@ -65,16 +65,15 @@
 .checkbox:hover{
     cursor: pointer;
 }
-.home{
-    margin-top: 20px;
-   font-size: 25px;
-}
 .submit-button{
     margin-top: 20px;
+    margin-bottom: 20px;
     padding: 12px;
+    height: 50px;
+    width: 140px;
     font-size: 25px;
     background-color: orange;
-    border: 2px solid orange;
+    border: 2px solid black;
     border-radius: 35px;
 }
 .submit-button:hover{
@@ -82,19 +81,69 @@
   background-color:#3b2612;
   color: white;
 }
+.footer{
+    background:#fff3e6;
+    padding:30px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:#3b2612;
+    font-size:20px;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:#000;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#3b2612;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    font-size:16px;
+    font-weight:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:28px;
+    margin:0% 1%;
+    font-weight:100%;
+    color:#cc7a00;
+    }
+    .home-icon{
+        font-size: 25px;
+    }
 @media only screen and (max-width:675px){
+    .heading{
+      font-size: 30px;
+      margin-top: 20px;
+    }
+    .footer{
+        width: 100%;
+    }
     .service-card{
-        margin-top: 60px;
+        margin-top: 10px;
     }
     .Terms-Conditions-heading{
-        font-size: 30px;
+        font-size: 20px;
 
     }
 }
 @media only screen and (max-width:1400px){
     .service-card{
         margin-top: 80px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
